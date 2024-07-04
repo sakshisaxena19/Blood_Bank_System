@@ -3,4 +3,4 @@ const { registerController } = require("../controllers/userControllers");
 let route = express.Router();
 //Register || POST
 route.post("/register", registerController);
-module.exports = route;
+module.exports = route

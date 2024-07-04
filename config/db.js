@@ -8,4 +8,4 @@ let databaseConnection = async () => {
     console.log(`somthing wrong in database connection`.bgWhite.black);
   }
 };
-module.exports = databaseConnection;
+module.exports = databaseConnection
